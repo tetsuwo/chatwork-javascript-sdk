@@ -1,11 +1,11 @@
 /*!
- * ChatWork - Chrome JavaScript SDK for ChatWork API v1 Preview
+ * ChatWork - Chrome JavaScript SDK for ChatWork API v2 Preview
  *
- * Copyright 2013-2014, Tetsuwo OISHI.
+ * Copyright 2013-2017, Tetsuwo OISHI.
  * Dual license under the MIT license.
  * http://tetsuwo.tumblr.com
  *
- * Version: 0.0.1
+ * Version: 2.0.0
  * Date: 2013-11-29
  */
 
@@ -19,7 +19,7 @@ function ChatWork(param) {
  * @param {object} param
  */
 ChatWork.prototype.initialize = function(param) {
-    this.apiBaseUrl = 'https://api.chatwork.com/v1';
+    this.apiBaseUrl = 'https://api.chatwork.com/v2';
     this.url        = 'https://chatwork.com';
     this.name       = '_chatwork';
     this.times      = 0;
